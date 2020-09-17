@@ -5,8 +5,14 @@ public class Demo {
         System.out.println(new Date());
 
         System.out.println(getDate());
+
+        System.out.println(hello());
     }
     public static Long getDate(){
         return new Date().getTime();
     }
+    public static String hello(){
+        return "hellojavaworld";
+    }
+
 }
